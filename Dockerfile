@@ -6,3 +6,8 @@ USER jovyan
 
 # Add Word cloud
 RUN pip install wordcloud
+
+# Get the files of the project
+RUN wget https://github.com/SIMEXP/si_parcellation_segmentation/archive/0.1.zip
+RUN unzip 0.1.zip
+RUN rm 0.1.zip
