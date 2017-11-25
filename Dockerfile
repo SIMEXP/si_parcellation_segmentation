@@ -8,6 +8,6 @@ USER jovyan
 RUN pip install wordcloud
 
 # Get the files of the project
-RUN wget https://github.com/SIMEXP/si_parcellation_segmentation/archive/0.3.zip
-RUN unzip 0.3.zip
-RUN rm 0.3.zip
+RUN wget https://github.com/SIMEXP/si_parcellation_segmentation/archive/0.4.zip
+RUN unzip 0.4.zip
+RUN rm 0.4.zip
